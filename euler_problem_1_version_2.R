@@ -11,15 +11,6 @@ threes_or_fives <- c(threes, fives)
 # Make a logical vector indicating the indices of all numbers that are duplicates of both three and five.
 logical_vector_dup <- duplicated(threes_or_fives)
 
-# Method 1. WOrse.
-indices_dup <- which(logical_vector_dup)
-indices_not_dup <- -indices_dup
-
-values_not_dup <- threes_or_fives[indices_not_dup]
-sum(values_not_dup)
-
-# Method 2. Better.
-
 # Make a logical vector indicating the indices of all numbers that are not duplicates of both three and five.
 logical_vector_not_dup <- !logical_vector_dup
 
