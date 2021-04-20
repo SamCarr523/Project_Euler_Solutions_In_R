@@ -4,12 +4,6 @@
 
 # Description: What is the largest prime factor of the number 600851475143 ?
 
-
-#start with 2 and repeat, then with 3 and repeat, etc. until i == no
-
-#poor solution below... Instead should stop when fully factorised, 
-#not when all numbers up to noStart have been tried
-
 # Initialise variables.
 no = 600851475143
 i = 2
