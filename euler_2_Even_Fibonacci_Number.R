@@ -1,5 +1,5 @@
 # Project Euler Problem 2
-# Title: Even Fibonacci number
+# Title: Even Fibonacci Number
 # URL: https://projecteuler.net/problem=2
 
 # Description: By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
