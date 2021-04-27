@@ -56,3 +56,5 @@ for (i in 1:988) {
 
 # Print the maximum product.
 max(productsVec)
+
+# Answer is 23514624000.
