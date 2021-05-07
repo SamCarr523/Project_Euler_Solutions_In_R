@@ -17,7 +17,6 @@ divisors <- 1:20
 divisors <- divisors[! divisors %in% primes]
 div_bool <- FALSE
 product_factor <- -1
-end_bool <- FALSE
 
 # Incrementally test multiples of the product of all primes up to 20 inclusive.
 for( i in integers ) {
