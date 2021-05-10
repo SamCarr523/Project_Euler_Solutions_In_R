@@ -11,7 +11,7 @@
 # Find the product abc.
 
 
-# The following 4 points are therefore true:
+# The following 4 points are therefore true, with only one solution:
 # 1. a, b and c are natural numbers
 # 2. a < b < c
 # 3. a^2 + b^2 = c^2
