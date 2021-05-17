@@ -123,8 +123,8 @@ options(digits = 11)
 # Turn sum into a string then character vector.
 sum <- strsplit(prettyNum(sum), "")[[1]]
 
-# Create two vectors of indexes (strtoi can not be used otherwise as the number 
-# would be too large)
+# Create two vectors of indexes (strtoi can not be used without doing this  
+# as the input number would be too large)
 indexes_1 <- c(1, 3:6)
 indexes_2 <- c(7:11)
 
